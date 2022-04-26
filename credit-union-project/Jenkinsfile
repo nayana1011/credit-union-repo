@@ -50,7 +50,7 @@ stage('SonarQube'){
 
 steps{
 
-bat label: '', script: '''mvn -f credit-union-project/pom.xml sonar:sonar \
+bat label: '', script:  '''mvn -f credit-union-project/pom.xml sonar:sonar \
 
 -Dsonar.host.url=http://localhost:9000 \
 
